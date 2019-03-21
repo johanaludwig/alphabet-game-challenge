@@ -21,4 +21,4 @@ The Alphabet Game Challenge
 
 * HTML
 * CSS
-* JavaScript# project-quiz-game
+* JavaScript
