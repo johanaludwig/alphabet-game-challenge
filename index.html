@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="style/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+
+</head>
+<body>
+    <div class="wrapper"></div>
+    <header id="header">
+        <h1>Alphabetical</h1>
+        <p>The Quiz Show</p>
+        <div class="showQuestions">
+        <h2 id="askQuestion">Question</h1>
+        </div>
+    </header>
+    <div class="main">
+        <div class="letter letterUp" id="alligator">A</div>
+        <div class="letter letterUp" id="blue whale">B</div>
+        <div class="letter letterUp" id="caracas">C</div>
+        <div class="letter letterUp" id="dumbledore">D</div>
+        <div class="letter letterUp" id="east">E</div>
+        <div class="letter letterUp" id="freddie mercury">F</div>
+        <div class="letter letterUp" id="gold">G</div>
+        <div class="letter letterUp" id="hercules">H</div>
+        <div class="letter letterUp" id="ironman">I</div>
+        <div class="letter letterUp" id="juventus">J</div>
+        <div class="letter letterUp" id="kilimanjaro">K</div>
+        <div class="letter letterUp" id="lady gaga">L</div>
+        <div class="letter letterUp" id="munich">M</div>
+        <div class="letter letterUp" id="rafael nadal">N</div>
+        <div class="letter letterUp" id="octupus">O</div>
+        <div class="letter letterUp" id="vladimir putin">P</div>
+        <div class="letter letterUp" id="quito">Q</div>
+        <div class="letter letterUp" id="rihanna">R</div>
+        <div class="letter letterUp" id="kristen stewart">S</div>
+        <div class="letter letterUp" id="transylvania">T</div>
+        <div class="letter letterUp" id="uruguay">U</div>   
+        <div class="letter letterUp" id="vatician city">V</div>
+        <div class="letter letterUp" id="woody">W</div>  
+        <div class="letter letterUp" id="x-men">X</div> 
+        <div class="letter letterUp" id="yankees">Y</div>
+        <div class="letter letterUp" id="zoology">Z</div>
+    </div>
+    <hr>
+        <form id="guess">
+            <input class="inputText" type="text" id="playersAnswer" placeholder="Your answer here..."/>
+            <button type="submit" value="submit" class="buttonSubmit">Send</button>   
+        </form>  
+        <div class="buttonAlign">
+            <button id="buttonReset" type="button" class="buttonSubmit" style="display:none">Play again?</button>
+        </div> 
+    <hr>
+    <div class="flex-container">
+        <div class="player">
+            <p>Player:</p>
+            <input contenteditable="true" id="userData" placeholder="Your name here..."></input>
+            <button id="buttonPlayer" type="button">Save</button>
+            <p id="welcomeText"></p>
+        </div>
+        <div class="absGif">
+            <img src="./img/abcSequence.gif" alt="ABC Sequence">
+        </div>
+        <div class="results">
+            <table>
+                <tr>
+                    <td><text >Correct answers:</text></td> 
+                    <td><text id="guessRight">0</text></td> 
+                </tr>                
+                <tr>
+                    <td><text>Wrong answers:</text></td> 
+                    <td><text id="guessWrong">0</text></td> 
+                </tr>
+                <tr>
+                    <td><text>Current answer:</text></td> 
+                    <td><text id="currentAnswer"></text></td> 
+                </tr>
+            </table> 
+        </div>
+ <script type="text/javascript" src="main.js"></script>
+</body>
+</html>
